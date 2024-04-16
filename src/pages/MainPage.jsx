@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import {
   AboutUs,
@@ -16,11 +17,11 @@ const MainPage = () => (
   <div>
     <Navbar />
     <Header />
-    <AboutUs />
+    {/* <AboutUs /> */}
     <SpecialMenu />
     <Chef />
     <Intro />
-    <Laurels />
+    {/* <Laurels /> */}
     <Gallery />
     <FindUs />
     <Footer />
